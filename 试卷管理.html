@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>试卷管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/试卷管理/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/试卷管理/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u309" class="ax_default box_3">
+        <div id="u309_div" class=""></div>
+        <div id="u309_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u310" class="ax_default label">
+        <div id="u310_div" class=""></div>
+        <div id="u310_text" class="text ">
+          <p><span style="text-decoration:none;">考试状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u311" class="ax_default droplist">
+        <div id="u311_div" class=""></div>
+        <select id="u311_input" class="u311_input">
+          <option class="u311_input_option" value="全部">全部</option>
+          <option class="u311_input_option" value="草稿">草稿</option>
+          <option class="u311_input_option" value="未开始">未开始</option>
+          <option class="u311_input_option" value="进行中">进行中</option>
+          <option class="u311_input_option" value="已结束">已结束</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u312" class="ax_default label">
+        <div id="u312_div" class=""></div>
+        <div id="u312_text" class="text ">
+          <p><span style="text-decoration:none;">试卷名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u313" class="ax_default text_field">
+        <div id="u313_div" class=""></div>
+        <input id="u313_input" type="text" value="" class="u313_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u314" class="ax_default label">
+        <div id="u314_div" class=""></div>
+        <div id="u314_text" class="text ">
+          <p><span style="text-decoration:none;">考试有效期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u315" class="ax_default text_field">
+        <div id="u315_div" class=""></div>
+        <input id="u315_input" type="text" value="" class="u315_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u316" class="ax_default text_field">
+        <div id="u316_div" class=""></div>
+        <input id="u316_input" type="text" value="" class="u316_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u317" class="ax_default label">
+        <div id="u317_div" class=""></div>
+        <div id="u317_text" class="text ">
+          <p><span style="text-decoration:none;">---</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u318" class="ax_default html_button">
+        <div id="u318_div" class=""></div>
+        <div id="u318_text" class="text ">
+          <p><span style="text-decoration:none;">查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u319" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u320" class="ax_default table_cell">
+          <img id="u320_img" class="img " src="images/试卷管理/u320.png"/>
+          <div id="u320_text" class="text ">
+            <p><span style="text-decoration:none;">试卷名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u321" class="ax_default table_cell">
+          <img id="u321_img" class="img " src="images/试卷管理/u321.png"/>
+          <div id="u321_text" class="text ">
+            <p><span style="text-decoration:none;">考试有效期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u322" class="ax_default table_cell">
+          <img id="u322_img" class="img " src="images/试卷管理/u322.png"/>
+          <div id="u322_text" class="text ">
+            <p><span style="text-decoration:none;">状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u323" class="ax_default table_cell">
+          <img id="u323_img" class="img " src="images/试卷管理/u322.png"/>
+          <div id="u323_text" class="text ">
+            <p><span style="text-decoration:none;">创建日期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u324" class="ax_default table_cell">
+          <img id="u324_img" class="img " src="images/试卷管理/u324.png"/>
+          <div id="u324_text" class="text ">
+            <p><span style="text-decoration:none;">操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u325" class="ax_default table_cell">
+          <img id="u325_img" class="img " src="images/试卷管理/u325.png"/>
+          <div id="u325_text" class="text ">
+            <p><a id="u326" class="link"><span style="text-decoration:none;">试卷名称1</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u327" class="ax_default table_cell">
+          <img id="u327_img" class="img " src="images/试卷管理/u327.png"/>
+          <div id="u327_text" class="text ">
+            <p><span style="text-decoration:none;">12-21 15:29~01-26 15:24</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u328" class="ax_default table_cell">
+          <img id="u328_img" class="img " src="images/试卷管理/u328.png"/>
+          <div id="u328_text" class="text ">
+            <p><span style="text-decoration:none;">草稿</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u329" class="ax_default table_cell">
+          <img id="u329_img" class="img " src="images/试卷管理/u328.png"/>
+          <div id="u329_text" class="text ">
+            <p><span style="text-decoration:none;">2018-12-20</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u330" class="ax_default table_cell">
+          <img id="u330_img" class="img " src="images/试卷管理/u330.png"/>
+          <div id="u330_text" class="text ">
+            <p><a id="u331" class="link"><span style="text-decoration:none;color:#0000FF;">编辑&nbsp; </span></a><span style="text-decoration:none;">删除</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u332" class="ax_default table_cell">
+          <img id="u332_img" class="img " src="images/试卷管理/u332.png"/>
+          <div id="u332_text" class="text ">
+            <p><span style="text-decoration:none;">试卷名称2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u333" class="ax_default table_cell">
+          <img id="u333_img" class="img " src="images/试卷管理/u333.png"/>
+          <div id="u333_text" class="text ">
+            <p><span style="text-decoration:none;">12-21 15:29~01-26 15:24</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u334" class="ax_default table_cell">
+          <img id="u334_img" class="img " src="images/试卷管理/u334.png"/>
+          <div id="u334_text" class="text ">
+            <p><span style="text-decoration:none;">未开始</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u335" class="ax_default table_cell">
+          <img id="u335_img" class="img " src="images/试卷管理/u334.png"/>
+          <div id="u335_text" class="text ">
+            <p><span style="text-decoration:none;">2018-12-21</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u336" class="ax_default table_cell">
+          <img id="u336_img" class="img " src="images/试卷管理/u336.png"/>
+          <div id="u336_text" class="text ">
+            <p><span style="text-decoration:none;">编辑&nbsp; 删除</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u337" class="ax_default table_cell">
+          <img id="u337_img" class="img " src="images/试卷管理/u320.png"/>
+          <div id="u337_text" class="text ">
+            <p><span style="text-decoration:none;">试卷名称3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u338" class="ax_default table_cell">
+          <img id="u338_img" class="img " src="images/试卷管理/u321.png"/>
+          <div id="u338_text" class="text ">
+            <p><span style="text-decoration:none;">12-21 15:29~01-26 15:24</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u339" class="ax_default table_cell">
+          <img id="u339_img" class="img " src="images/试卷管理/u322.png"/>
+          <div id="u339_text" class="text ">
+            <p><span style="text-decoration:none;">进行中</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u340" class="ax_default table_cell">
+          <img id="u340_img" class="img " src="images/试卷管理/u322.png"/>
+          <div id="u340_text" class="text ">
+            <p><span style="text-decoration:none;">2018-12-21</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u341" class="ax_default table_cell">
+          <img id="u341_img" class="img " src="images/试卷管理/u324.png"/>
+          <div id="u341_text" class="text ">
+            <p><a id="u342" class="link"><span style="text-decoration:none;color:#0000FF;">统计</span></a><span style="text-decoration:none;"> 提前结束 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u343" class="ax_default table_cell">
+          <img id="u343_img" class="img " src="images/试卷管理/u343.png"/>
+          <div id="u343_text" class="text ">
+            <p><span style="text-decoration:none;">试卷名称4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u344" class="ax_default table_cell">
+          <img id="u344_img" class="img " src="images/试卷管理/u344.png"/>
+          <div id="u344_text" class="text ">
+            <p><span style="text-decoration:none;">12-21 15:29~01-26 15:24</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u345" class="ax_default table_cell">
+          <img id="u345_img" class="img " src="images/试卷管理/u345.png"/>
+          <div id="u345_text" class="text ">
+            <p><span style="text-decoration:none;">已结束</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u346" class="ax_default table_cell">
+          <img id="u346_img" class="img " src="images/试卷管理/u345.png"/>
+          <div id="u346_text" class="text ">
+            <p><span style="text-decoration:none;">2018-12-21</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u347" class="ax_default table_cell">
+          <img id="u347_img" class="img " src="images/试卷管理/u347.png"/>
+          <div id="u347_text" class="text ">
+            <p><span style="text-decoration:none;">统计 删除</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u348" class="ax_default _图片">
+        <img id="u348_img" class="img " src="images/题库管理/u115.png"/>
+        <div id="u348_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u349" class="ax_default html_button">
+        <div id="u349_div" class=""></div>
+        <div id="u349_text" class="text ">
+          <p><span style="text-decoration:none;">新建考试</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Tree) -->
+      <div id="u350" class="ax_default tree_node treeroot">
+        <div id="u350_children" class="u350_children">
+
+          <!-- Unnamed (Tree Node) -->
+          <div id="u351" class="ax_default tree_node treenode">
+
+            <!-- Unnamed (Image) -->
+            <div id="u352" class="ax_default _图片">
+              <img id="u352_img" class="img " src="images/分类管理/u4_selected.png"/>
+              <div id="u352_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u353" class="" selectiongroup="u350_tree_group">
+              <div id="u353_div" class=""></div>
+              <div id="u353_text" class="text ">
+                <p><span style="text-decoration:none;">考试管理</span></p>
+              </div>
+            </div>
+            <div id="u351_children" class="u351_children">
+
+              <!-- Unnamed (Tree Node) -->
+              <div id="u354" class="ax_default tree_node treenode">
+                <!-- Unnamed (Rectangle) -->
+                <div id="u355" class="" selectiongroup="u350_tree_group">
+                  <div id="u355_div" class=""></div>
+                  <div id="u355_text" class="text ">
+                    <p><span style="text-decoration:none;">分类管理</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Tree Node) -->
+              <div id="u356" class="ax_default tree_node treenode">
+                <!-- Unnamed (Rectangle) -->
+                <div id="u357" class="" selectiongroup="u350_tree_group">
+                  <div id="u357_div" class=""></div>
+                  <div id="u357_text" class="text ">
+                    <p><span style="text-decoration:none;">题库管理</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Tree Node) -->
+              <div id="u358" class="ax_default tree_node treenode">
+                <!-- Unnamed (Rectangle) -->
+                <div id="u359" class="" selectiongroup="u350_tree_group">
+                  <div id="u359_div" class=""></div>
+                  <div id="u359_text" class="text ">
+                    <p><span style="text-decoration:none;">试卷管理</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u360" class="ax_default sticky_1">
+        <div id="u360_div" class=""></div>
+        <div id="u360_text" class="text ">
+          <p><span style="text-decoration:none;"><br></span></p><p><span style="text-decoration:none;">1）权限</span></p><p><span style="text-decoration:none;">后台管理用户。同公司管理员多个，可查看编辑所有数据。</span></p><p><span style="text-decoration:none;">2）说明：</span></p><p><span style="text-decoration:none;">1.点击左菜单：试卷管理后，右边自动查询出所有试卷分页显示，每页10条，按创建时间降序排序。</span></p><p><span style="text-decoration:none;">2.试卷名称模糊查询。</span></p><p><span style="text-decoration:none;">3.查询时间1 &lt;= 查询时间2 精确到日。</span></p><p><span style="text-decoration:none;">eg:如填入时间的查询范围为：</span></p><p><span style="text-decoration:none;">2019/1/1 00:00:00 - 2019/2/1 23:59:59</span></p><p><span style="text-decoration:none;">4.每种状态可操作按钮见上表。</span></p><p><span style="text-decoration:none;"><br></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
